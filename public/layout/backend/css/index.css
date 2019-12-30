@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#header {
+	/* margin: 0px 50px 0px 50px; */
+	height: 70px;
+	background-color: #adb5bd;
+	border-bottom: 0.5px solid #dddddd;
+	font-size: 30px;
+	/* text-align: center; */
+	padding-left: 50px;
+	line-height: 70px;
+	color: white;
+}
+#btn-header{
+	background-color: #adb5bd;
+	border-bottom: 0.5px solid #dddddd;
+	font-size: 30px;
+	/* text-align: center; */
+	padding-left: 50px;
+	padding-top: 5px;
+	line-height: 50px;
+	
+	color: white;
+}
+body{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.col-md-2{
+	border-right: 0.5px solid #dddddd;
+	background-color: #f4f4f4;
+}
+span:hover{
+	background-color: #adb5bd;
+}
+
+.col-md-2 > ul > li > a > span{
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px 10px 20px;
+	border-bottom: 1px solid #dddddd;
+	height: 50px;
+	width: 220px;
+}
+
+.col-md-2 > ul{
+	margin-left: -50px!important;
+}
+
+.col-md-2 > ul > li{
+	list-style: none;
+}
+table, td, th{
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+	text-align: center;
+	line-height: 60px;
+}
+
+a.non-textdecoration{
+	color: black;
+	text-decoration: none;
+}
+
+.col-md-10 > table > tr > th, td{
+	width: 200px;
+}
+
+.col-md-4 > table > tr > th, td{
+	width: 200px;
+}
+th:nth-child(3){
+	width: 600px;
+}
+.header-table{
+	background-color: #adb5bd;
+	line-height: 60px;
+	border-left: 1px solid #adb5bd;
+	border-top: 1px solid #adb5bd;
+	border-right: 1px solid #adb5bd;
+	padding-left: 10px;
+	color: white;
+	font-size: 30px;
+}
+
+footer{
+	height: 100px;
+}
+
+label{
+	color: blue;
+
+}
+
+.highlight{
+  background: #ddd;
+}
